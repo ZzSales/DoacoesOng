@@ -1,0 +1,63 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte usada no corpo da página */
+    background-color: rgb(152, 255, 207); /* Define a cor de fundo da página */
+    margin: 0; /* Remove a margem padrão ao redor do corpo da página */
+    padding: 0; /* Remove o padding padrão ao redor do corpo da página */
+    display: flex; /* Define o tipo de layout como flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura do corpo da página como 100% da altura da janela de visualização */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    background-color: #fff; /* Define a cor de fundo do contêiner */
+    padding: 20px; /* Adiciona um espaçamento interno de 20 pixels ao redor do contêiner */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao contêiner com um raio de 8 pixels */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do contêiner para dar um efeito de elevação */
+    width: 100%; /* Define a largura do contêiner como 100% do contêiner pai */
+    max-width: 400px; /* Define a largura máxima do contêiner como 400 pixels */
+}
+
+/* Estilos para o título principal */
+h1 {
+    text-align: center; /* Centraliza o texto do título */
+    color: #333; /* Define a cor do texto do título como cinza escuro */
+}
+
+/* Estilos para os rótulos dos campos do formulário */
+label {
+    display: block; /* Define o tipo de exibição como block, fazendo com que cada rótulo ocupe uma linha inteira */
+    margin-bottom: 8px; /* Adiciona uma margem inferior de 8 pixels para espaçamento entre o rótulo e o campo de entrada */
+    color: #555; /* Define a cor do texto do rótulo como cinza médio */
+}
+
+/* Estilos para os campos de entrada do formulário */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%; /* Define a largura dos campos de entrada como 100% do contêiner pai */
+    padding: 10px; /* Adiciona um espaçamento interno de 10 pixels ao redor dos campos de entrada */
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels para espaçamento entre os campos de entrada */
+    border: 1px solid #ccc; /* Define a borda dos campos de entrada como uma linha sólida de 1 pixel com cor cinza claro */
+    border-radius: 4px; /* Adiciona bordas arredondadas aos campos de entrada com um raio de 4 pixels */
+    box-sizing: border-box; /* Define o modelo de caixa como border-box, fazendo com que o padding e a borda sejam incluídos na largura e altura totais dos campos de entrada */
+}
+
+/* Estilos para o botão de envio do formulário */
+button {
+    width: 100%; /* Define a largura do botão como 100% do contêiner pai */
+    padding: 10px; /* Adiciona um espaçamento interno de 10 pixels ao redor do botão */
+    background-color: #28a745; /* Define a cor de fundo do botão como verde */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão com um raio de 4 pixels */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    font-size: 16px; /* Define o tamanho da fonte do texto do botão como 16 pixels */
+    cursor: pointer; /* Define o cursor do mouse como um ponteiro quando passa sobre o botão */
+}
+
+/* Estilos para o botão de envio do formulário quando o mouse passa sobre ele */
+button:hover {
+    background-color: #218838; /* Define a cor de fundo do botão como um verde mais escuro quando o mouse passa sobre ele */
+}
